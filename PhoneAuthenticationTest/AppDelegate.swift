@@ -20,7 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
         if #available(iOS 10, *) {
             UNUserNotificationCenter.current().requestAuthorization(options: [.badge, .alert, .sound]) { (granted, error) in
+                DispatchQueue.main.async {
                 application.registerForRemoteNotifications()
+                }
             }
         }
         else {
