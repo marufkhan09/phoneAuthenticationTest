@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		751AE75045773B8B50EA80C9 /* Pods_PhoneAuthenticationTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C7C2E365C5ABA36AAD32A4 /* Pods_PhoneAuthenticationTest.framework */; };
+		CA246B6525F0E3260044B299 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA246B6425F0E3260044B299 /* AppDelegate.swift */; };
+		CA246B6725F0E3260044B299 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA246B6625F0E3260044B299 /* SceneDelegate.swift */; };
+		CA246B6925F0E3260044B299 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA246B6825F0E3260044B299 /* ViewController.swift */; };
+		CA246B6C25F0E3260044B299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA246B6A25F0E3260044B299 /* Main.storyboard */; };
+		CA246B6E25F0E3290044B299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA246B6D25F0E3290044B299 /* Assets.xcassets */; };
+		CA246B7125F0E3290044B299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA246B6F25F0E3290044B299 /* LaunchScreen.storyboard */; };
+		CA246B7A25F0F5320044B299 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA246B7925F0F5310044B299 /* GoogleService-Info.plist */; };
+		CA455C8C261B23A90022F515 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA455C8B261B23A90022F515 /* ContactViewController.swift */; };
+		CA7BFC0E25FF73A400E67806 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7BFC0D25FF73A400E67806 /* LoginViewController.swift */; };
+		CA7EFD5F2615C9AB007E3208 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7EFD5E2615C9AB007E3208 /* ColorPickerViewController.swift */; };
+		CA92F7C526243E22002E813D /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA92F7C426243E22002E813D /* ContactTableViewCell.swift */; };
+		CAB195E525F776F60002E1D2 /* VerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB195E425F776F60002E1D2 /* VerificationViewController.swift */; };
+		CACB064D261F08D200D4C956 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CACB064C261F08D200D4C956 /* Contacts.framework */; };
+		CAD34E8425F753BC0021D09E /* NumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD34E8325F753BC0021D09E /* NumberViewController.swift */; };
+		CAD3D7E926171AC8008FD503 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD3D7E826171AC8008FD503 /* ChatViewController.swift */; };
+		CAD3D7ED261733BD008FD503 /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD3D7EC261733BD008FD503 /* CallViewController.swift */; };
+		CAE2FCF9262059B300206D79 /* FetchedContacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE2FCF8262059B300206D79 /* FetchedContacts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95C7C2E365C5ABA36AAD32A4 /* Pods_PhoneAuthenticationTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneAuthenticationTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA10D2D425F0FBE500321CE2 /* PhoneAuthenticationTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhoneAuthenticationTest.entitlements; sourceTree = "<group>"; };
+		CA246B6125F0E3260044B299 /* PhoneAuthenticationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneAuthenticationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA246B6425F0E3260044B299 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA246B6625F0E3260044B299 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA246B6825F0E3260044B299 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA246B6B25F0E3260044B299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA246B6D25F0E3290044B299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA246B7025F0E3290044B299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA246B7225F0E3290044B299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA246B7925F0F5310044B299 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CA455C8B261B23A90022F515 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		CA7BFC0D25FF73A400E67806 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CA7EFD5E2615C9AB007E3208 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
+		CA92F7C426243E22002E813D /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		CAB195E425F776F60002E1D2 /* VerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationViewController.swift; sourceTree = "<group>"; };
+		CACB064C261F08D200D4C956 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		CAD34E8325F753BC0021D09E /* NumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewController.swift; sourceTree = "<group>"; };
+		CAD3D7E826171AC8008FD503 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		CAD3D7EC261733BD008FD503 /* CallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
+		CAE2FCF8262059B300206D79 /* FetchedContacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchedContacts.swift; sourceTree = "<group>"; };
+		ECE8B702C26AA066773002AF /* Pods-PhoneAuthenticationTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneAuthenticationTest.debug.xcconfig"; path = "Target Support Files/Pods-PhoneAuthenticationTest/Pods-PhoneAuthenticationTest.debug.xcconfig"; sourceTree = "<group>"; };
+		F16D8134F6E0E7744CC3E9D1 /* Pods-PhoneAuthenticationTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneAuthenticationTest.release.xcconfig"; path = "Target Support Files/Pods-PhoneAuthenticationTest/Pods-PhoneAuthenticationTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA246B5E25F0E3260044B299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751AE75045773B8B50EA80C9 /* Pods_PhoneAuthenticationTest.framework in Frameworks */,
+				CACB064D261F08D200D4C956 /* Contacts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6509FABD99A87CF893D58F6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8B702C26AA066773002AF /* Pods-PhoneAuthenticationTest.debug.xcconfig */,
+				F16D8134F6E0E7744CC3E9D1 /* Pods-PhoneAuthenticationTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		97B9E7BA5AF4A960B4C94A35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CACB064C261F08D200D4C956 /* Contacts.framework */,
+				95C7C2E365C5ABA36AAD32A4 /* Pods_PhoneAuthenticationTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA246B5825F0E3260044B299 = {
+			isa = PBXGroup;
+			children = (
+				CA246B6325F0E3260044B299 /* PhoneAuthenticationTest */,
+				CA246B6225F0E3260044B299 /* Products */,
+				6509FABD99A87CF893D58F6E /* Pods */,
+				97B9E7BA5AF4A960B4C94A35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA246B6225F0E3260044B299 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA246B6125F0E3260044B299 /* PhoneAuthenticationTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA246B6325F0E3260044B299 /* PhoneAuthenticationTest */ = {
+			isa = PBXGroup;
+			children = (
+				CA10D2D425F0FBE500321CE2 /* PhoneAuthenticationTest.entitlements */,
+				CA246B6425F0E3260044B299 /* AppDelegate.swift */,
+				CA246B6625F0E3260044B299 /* SceneDelegate.swift */,
+				CA246B6825F0E3260044B299 /* ViewController.swift */,
+				CAD34E8325F753BC0021D09E /* NumberViewController.swift */,
+				CAB195E425F776F60002E1D2 /* VerificationViewController.swift */,
+				CA7BFC0D25FF73A400E67806 /* LoginViewController.swift */,
+				CA7EFD5E2615C9AB007E3208 /* ColorPickerViewController.swift */,
+				CAD3D7E826171AC8008FD503 /* ChatViewController.swift */,
+				CAD3D7EC261733BD008FD503 /* CallViewController.swift */,
+				CA455C8B261B23A90022F515 /* ContactViewController.swift */,
+				CA246B6A25F0E3260044B299 /* Main.storyboard */,
+				CA246B6D25F0E3290044B299 /* Assets.xcassets */,
+				CA246B6F25F0E3290044B299 /* LaunchScreen.storyboard */,
+				CA246B7225F0E3290044B299 /* Info.plist */,
+				CA246B7925F0F5310044B299 /* GoogleService-Info.plist */,
+				CAE2FCF8262059B300206D79 /* FetchedContacts.swift */,
+				CA92F7C426243E22002E813D /* ContactTableViewCell.swift */,
+			);
+			path = PhoneAuthenticationTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA246B6025F0E3260044B299 /* PhoneAuthenticationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA246B7525F0E3290044B299 /* Build configuration list for PBXNativeTarget "PhoneAuthenticationTest" */;
+			buildPhases = (
+				9657B6E3AC2D237056324241 /* [CP] Check Pods Manifest.lock */,
+				CA246B5D25F0E3260044B299 /* Sources */,
+				CA246B5E25F0E3260044B299 /* Frameworks */,
+				CA246B5F25F0E3260044B299 /* Resources */,
+				865BCFBAAD66F56621B1FE9E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneAuthenticationTest;
+			productName = PhoneAuthenticationTest;
+			productReference = CA246B6125F0E3260044B299 /* PhoneAuthenticationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA246B5925F0E3260044B299 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					CA246B6025F0E3260044B299 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = CA246B5C25F0E3260044B299 /* Build configuration list for PBXProject "PhoneAuthenticationTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA246B5825F0E3260044B299;
+			productRefGroup = CA246B6225F0E3260044B299 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA246B6025F0E3260044B299 /* PhoneAuthenticationTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA246B5F25F0E3260044B299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA246B7125F0E3290044B299 /* LaunchScreen.storyboard in Resources */,
+				CA246B7A25F0F5320044B299 /* GoogleService-Info.plist in Resources */,
+				CA246B6E25F0E3290044B299 /* Assets.xcassets in Resources */,
+				CA246B6C25F0E3260044B299 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		865BCFBAAD66F56621B1FE9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneAuthenticationTest/Pods-PhoneAuthenticationTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneAuthenticationTest/Pods-PhoneAuthenticationTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhoneAuthenticationTest/Pods-PhoneAuthenticationTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9657B6E3AC2D237056324241 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoneAuthenticationTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA246B5D25F0E3260044B299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA92F7C526243E22002E813D /* ContactTableViewCell.swift in Sources */,
+				CA7BFC0E25FF73A400E67806 /* LoginViewController.swift in Sources */,
+				CA246B6925F0E3260044B299 /* ViewController.swift in Sources */,
+				CAD3D7E926171AC8008FD503 /* ChatViewController.swift in Sources */,
+				CAD3D7ED261733BD008FD503 /* CallViewController.swift in Sources */,
+				CAD34E8425F753BC0021D09E /* NumberViewController.swift in Sources */,
+				CA7EFD5F2615C9AB007E3208 /* ColorPickerViewController.swift in Sources */,
+				CAB195E525F776F60002E1D2 /* VerificationViewController.swift in Sources */,
+				CA246B6525F0E3260044B299 /* AppDelegate.swift in Sources */,
+				CA246B6725F0E3260044B299 /* SceneDelegate.swift in Sources */,
+				CA455C8C261B23A90022F515 /* ContactViewController.swift in Sources */,
+				CAE2FCF9262059B300206D79 /* FetchedContacts.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA246B6A25F0E3260044B299 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA246B6B25F0E3260044B299 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA246B6F25F0E3290044B299 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA246B7025F0E3290044B299 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA246B7325F0E3290044B299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA246B7425F0E3290044B299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA246B7625F0E3290044B299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE8B702C26AA066773002AF /* Pods-PhoneAuthenticationTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhoneAuthenticationTest/PhoneAuthenticationTest.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L52CQPTD7Z;
+				INFOPLIST_FILE = PhoneAuthenticationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.misfitmaruf.PhoneAuthDemoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA246B7725F0E3290044B299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F16D8134F6E0E7744CC3E9D1 /* Pods-PhoneAuthenticationTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhoneAuthenticationTest/PhoneAuthenticationTest.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L52CQPTD7Z;
+				INFOPLIST_FILE = PhoneAuthenticationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.misfitmaruf.PhoneAuthDemoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA246B5C25F0E3260044B299 /* Build configuration list for PBXProject "PhoneAuthenticationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA246B7325F0E3290044B299 /* Debug */,
+				CA246B7425F0E3290044B299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA246B7525F0E3290044B299 /* Build configuration list for PBXNativeTarget "PhoneAuthenticationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA246B7625F0E3290044B299 /* Debug */,
+				CA246B7725F0E3290044B299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA246B5925F0E3260044B299 /* Project object */;
+}
