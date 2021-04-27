@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Yh-KN-5IW">
-                                <rect key="frame" x="0.0" y="44" width="375" height="812"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nnn 1" translatesAutoresizingMaskIntoConstraints="NO" id="BAP-Fu-ZZ7">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="623"/>
                                     </imageView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KCy-w8-B2i">
                                         <rect key="frame" x="133.5" y="62" width="108" height="73"/>
@@ -57,7 +57,7 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCk-HD-dja">
-                                        <rect key="frame" x="40.5" y="665" width="294" height="45"/>
+                                        <rect key="frame" x="40.5" y="476" width="294" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="43j-kG-eFK"/>
                                             <constraint firstAttribute="width" constant="294" id="hfW-F0-thj"/>
@@ -68,7 +68,7 @@
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Za6-9C-qyI">
-                                        <rect key="frame" x="40.5" y="731" width="294" height="45"/>
+                                        <rect key="frame" x="40.5" y="542" width="294" height="45"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Clicking &quot;Agree &amp; Continue&quot; you accept our" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AjL-fL-e2q">
                                                 <rect key="frame" x="0.0" y="0.0" width="294" height="16"/>
